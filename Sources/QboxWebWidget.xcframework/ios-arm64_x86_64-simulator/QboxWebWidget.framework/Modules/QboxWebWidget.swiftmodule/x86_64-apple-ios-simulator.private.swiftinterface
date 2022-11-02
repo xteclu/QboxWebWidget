@@ -4,6 +4,7 @@
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
 @_exported import QboxWebWidget
+import SafariServices
 import Swift
 import UIKit
 import WebKit
