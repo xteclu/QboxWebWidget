@@ -1,0 +1,50 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-module-flags: -target x86_64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name QboxWebWidget
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import QboxWebWidget
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+public enum QboxWWLanguage : Swift.String {
+  case ru, kk, en
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum QboxWWCallType : Swift.String {
+  case video, audio
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct QboxWWCall {
+  public init(domain: Swift.String, type: QboxWebWidget.QboxWWCallType, topic: Swift.String)
+}
+public struct QboxWWLocation {
+  public init(latitude: Swift.Double, longitude: Swift.Double)
+}
+public struct QboxWWDeviceBattery {
+  public init(batteryLevelPercentage: Swift.Int? = nil, batteryIsCharging: Swift.Bool? = nil)
+}
+public struct QboxWWDevice {
+  public init(systemName: Swift.String? = nil, systemVersion: Swift.String? = nil, modelName: Swift.String? = nil, mobileOperator: Swift.String? = nil, appVersion: Swift.String? = nil, battery: QboxWebWidget.QboxWWDeviceBattery? = nil)
+}
+public struct QboxWWUser {
+  public init(firstName: Swift.String? = nil, lastName: Swift.String? = nil, patronymic: Swift.String? = nil, iin: Swift.String? = nil, phoneNumber: Swift.String? = nil, location: QboxWebWidget.QboxWWLocation? = nil, device: QboxWebWidget.QboxWWDevice? = nil)
+}
+public func buildQboxWebWidget(url: Swift.String, language: QboxWebWidget.QboxWWLanguage, call: QboxWebWidget.QboxWWCall, user: QboxWebWidget.QboxWWUser? = nil, loggingEnabled: Swift.Bool? = false) -> UIKit.UIViewController
+public func reloadQboxWebWidget()
+extension QboxWebWidget.QboxWWLanguage : Swift.Equatable {}
+extension QboxWebWidget.QboxWWLanguage : Swift.Hashable {}
+extension QboxWebWidget.QboxWWLanguage : Swift.RawRepresentable {}
+extension QboxWebWidget.QboxWWCallType : Swift.Equatable {}
+extension QboxWebWidget.QboxWWCallType : Swift.Hashable {}
+extension QboxWebWidget.QboxWWCallType : Swift.RawRepresentable {}
