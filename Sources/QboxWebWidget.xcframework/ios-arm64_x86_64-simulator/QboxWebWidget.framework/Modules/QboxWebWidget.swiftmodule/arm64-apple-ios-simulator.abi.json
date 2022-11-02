@@ -991,26 +991,6 @@
           "AccessControl"
         ],
         "funcSelfKind": "NonMutating"
-      },
-      {
-        "kind": "Function",
-        "name": "reloadQboxWebWidget",
-        "printedName": "reloadQboxWebWidget()",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "Void",
-            "printedName": "()"
-          }
-        ],
-        "declKind": "Func",
-        "usr": "s:13QboxWebWidget06reloadabC0yyF",
-        "mangledName": "$s13QboxWebWidget06reloadabC0yyF",
-        "moduleName": "QboxWebWidget",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "funcSelfKind": "NonMutating"
       }
     ],
     "json_format_version": 8
@@ -1068,63 +1048,63 @@
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 364,
+      "offset": 310,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
       "kind": "StringLiteral",
-      "offset": 984,
+      "offset": 874,
       "length": 9,
       "value": "\"?topic=\""
     },
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1035,
+      "offset": 925,
       "length": 8,
       "value": "\"&lang=\""
     },
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1286,
+      "offset": 1176,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1312,
+      "offset": 1202,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1512,
+      "offset": 1402,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1651,
+      "offset": 1541,
       "length": 10,
       "value": "\"Жабу\""
     },
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1695,
+      "offset": 1585,
       "length": 7,
       "value": "\"Close\""
     },
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1735,
+      "offset": 1625,
       "length": 16,
       "value": "\"Закрыть\""
     }

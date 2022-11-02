@@ -42,7 +42,6 @@ public struct QboxWWUser {
   public init(firstName: Swift.String? = nil, lastName: Swift.String? = nil, patronymic: Swift.String? = nil, iin: Swift.String? = nil, phoneNumber: Swift.String? = nil, location: QboxWebWidget.QboxWWLocation? = nil, device: QboxWebWidget.QboxWWDevice? = nil)
 }
 public func buildQboxWebWidget(url: Swift.String, language: QboxWebWidget.QboxWWLanguage, call: QboxWebWidget.QboxWWCall, user: QboxWebWidget.QboxWWUser? = nil, loggingEnabled: Swift.Bool? = false) -> UIKit.UIViewController
-public func reloadQboxWebWidget()
 extension QboxWebWidget.QboxWWLanguage : Swift.Equatable {}
 extension QboxWebWidget.QboxWWLanguage : Swift.Hashable {}
 extension QboxWebWidget.QboxWWLanguage : Swift.RawRepresentable {}
