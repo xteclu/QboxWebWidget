@@ -16,8 +16,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "QboxWWLanguage",
-        "printedName": "QboxWWLanguage",
+        "name": "Language",
+        "printedName": "Language",
         "children": [
           {
             "kind": "Var",
@@ -27,24 +27,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(QboxWebWidget.QboxWWLanguage.Type) -> QboxWebWidget.QboxWWLanguage",
+                "printedName": "(QboxWebWidget.Language.Type) -> QboxWebWidget.Language",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "QboxWWLanguage",
-                    "printedName": "QboxWebWidget.QboxWWLanguage",
-                    "usr": "s:13QboxWebWidget0A10WWLanguageO"
+                    "name": "Language",
+                    "printedName": "QboxWebWidget.Language",
+                    "usr": "s:13QboxWebWidget8LanguageO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "QboxWebWidget.QboxWWLanguage.Type",
+                    "printedName": "QboxWebWidget.Language.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "QboxWWLanguage",
-                        "printedName": "QboxWebWidget.QboxWWLanguage",
-                        "usr": "s:13QboxWebWidget0A10WWLanguageO"
+                        "name": "Language",
+                        "printedName": "QboxWebWidget.Language",
+                        "usr": "s:13QboxWebWidget8LanguageO"
                       }
                     ]
                   }
@@ -52,8 +52,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:13QboxWebWidget0A10WWLanguageO2ruyA2CmF",
-            "mangledName": "$s13QboxWebWidget0A10WWLanguageO2ruyA2CmF",
+            "usr": "s:13QboxWebWidget8LanguageO2ruyA2CmF",
+            "mangledName": "$s13QboxWebWidget8LanguageO2ruyA2CmF",
             "moduleName": "QboxWebWidget"
           },
           {
@@ -64,24 +64,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(QboxWebWidget.QboxWWLanguage.Type) -> QboxWebWidget.QboxWWLanguage",
+                "printedName": "(QboxWebWidget.Language.Type) -> QboxWebWidget.Language",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "QboxWWLanguage",
-                    "printedName": "QboxWebWidget.QboxWWLanguage",
-                    "usr": "s:13QboxWebWidget0A10WWLanguageO"
+                    "name": "Language",
+                    "printedName": "QboxWebWidget.Language",
+                    "usr": "s:13QboxWebWidget8LanguageO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "QboxWebWidget.QboxWWLanguage.Type",
+                    "printedName": "QboxWebWidget.Language.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "QboxWWLanguage",
-                        "printedName": "QboxWebWidget.QboxWWLanguage",
-                        "usr": "s:13QboxWebWidget0A10WWLanguageO"
+                        "name": "Language",
+                        "printedName": "QboxWebWidget.Language",
+                        "usr": "s:13QboxWebWidget8LanguageO"
                       }
                     ]
                   }
@@ -89,8 +89,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:13QboxWebWidget0A10WWLanguageO2kkyA2CmF",
-            "mangledName": "$s13QboxWebWidget0A10WWLanguageO2kkyA2CmF",
+            "usr": "s:13QboxWebWidget8LanguageO2kkyA2CmF",
+            "mangledName": "$s13QboxWebWidget8LanguageO2kkyA2CmF",
             "moduleName": "QboxWebWidget"
           },
           {
@@ -101,24 +101,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(QboxWebWidget.QboxWWLanguage.Type) -> QboxWebWidget.QboxWWLanguage",
+                "printedName": "(QboxWebWidget.Language.Type) -> QboxWebWidget.Language",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "QboxWWLanguage",
-                    "printedName": "QboxWebWidget.QboxWWLanguage",
-                    "usr": "s:13QboxWebWidget0A10WWLanguageO"
+                    "name": "Language",
+                    "printedName": "QboxWebWidget.Language",
+                    "usr": "s:13QboxWebWidget8LanguageO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "QboxWebWidget.QboxWWLanguage.Type",
+                    "printedName": "QboxWebWidget.Language.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "QboxWWLanguage",
-                        "printedName": "QboxWebWidget.QboxWWLanguage",
-                        "usr": "s:13QboxWebWidget0A10WWLanguageO"
+                        "name": "Language",
+                        "printedName": "QboxWebWidget.Language",
+                        "usr": "s:13QboxWebWidget8LanguageO"
                       }
                     ]
                   }
@@ -126,8 +126,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:13QboxWebWidget0A10WWLanguageO2enyA2CmF",
-            "mangledName": "$s13QboxWebWidget0A10WWLanguageO2enyA2CmF",
+            "usr": "s:13QboxWebWidget8LanguageO2enyA2CmF",
+            "mangledName": "$s13QboxWebWidget8LanguageO2enyA2CmF",
             "moduleName": "QboxWebWidget"
           },
           {
@@ -138,13 +138,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "QboxWebWidget.QboxWWLanguage?",
+                "printedName": "QboxWebWidget.Language?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "QboxWWLanguage",
-                    "printedName": "QboxWebWidget.QboxWWLanguage",
-                    "usr": "s:13QboxWebWidget0A10WWLanguageO"
+                    "name": "Language",
+                    "printedName": "QboxWebWidget.Language",
+                    "usr": "s:13QboxWebWidget8LanguageO"
                   }
                 ],
                 "usr": "s:Sq"
@@ -157,8 +157,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13QboxWebWidget0A10WWLanguageO8rawValueACSgSS_tcfc",
-            "mangledName": "$s13QboxWebWidget0A10WWLanguageO8rawValueACSgSS_tcfc",
+            "usr": "s:13QboxWebWidget8LanguageO8rawValueACSgSS_tcfc",
+            "mangledName": "$s13QboxWebWidget8LanguageO8rawValueACSgSS_tcfc",
             "moduleName": "QboxWebWidget",
             "implicit": true,
             "init_kind": "Designated"
@@ -176,8 +176,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:13QboxWebWidget0A10WWLanguageO8rawValueSSvp",
-            "mangledName": "$s13QboxWebWidget0A10WWLanguageO8rawValueSSvp",
+            "usr": "s:13QboxWebWidget8LanguageO8rawValueSSvp",
+            "mangledName": "$s13QboxWebWidget8LanguageO8rawValueSSvp",
             "moduleName": "QboxWebWidget",
             "implicit": true,
             "accessors": [
@@ -194,8 +194,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13QboxWebWidget0A10WWLanguageO8rawValueSSvg",
-                "mangledName": "$s13QboxWebWidget0A10WWLanguageO8rawValueSSvg",
+                "usr": "s:13QboxWebWidget8LanguageO8rawValueSSvg",
+                "mangledName": "$s13QboxWebWidget8LanguageO8rawValueSSvg",
                 "moduleName": "QboxWebWidget",
                 "implicit": true,
                 "accessorKind": "get"
@@ -204,11 +204,12 @@
           }
         ],
         "declKind": "Enum",
-        "usr": "s:13QboxWebWidget0A10WWLanguageO",
-        "mangledName": "$s13QboxWebWidget0A10WWLanguageO",
+        "usr": "s:13QboxWebWidget8LanguageO",
+        "mangledName": "$s13QboxWebWidget8LanguageO",
         "moduleName": "QboxWebWidget",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "enumRawTypeName": "String",
         "conformances": [
@@ -251,6 +252,113 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "Settings",
+        "printedName": "Settings",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(url:language:call:user:loggingEnabled:mobileRequired:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Settings",
+                "printedName": "QboxWebWidget.Settings",
+                "usr": "s:13QboxWebWidget8SettingsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Language",
+                "printedName": "QboxWebWidget.Language",
+                "usr": "s:13QboxWebWidget8LanguageO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "QboxWebWidget.Call?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Call",
+                    "printedName": "QboxWebWidget.Call",
+                    "usr": "s:13QboxWebWidget4CallV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "QboxWebWidget.User?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "User",
+                    "printedName": "QboxWebWidget.User",
+                    "usr": "s:13QboxWebWidget4UserV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13QboxWebWidget8SettingsC3url8language4call4user14loggingEnabled14mobileRequiredACSS_AA8LanguageOAA4CallVSgAA4UserVSgSbSgARtcfc",
+            "mangledName": "$s13QboxWebWidget8SettingsC3url8language4call4user14loggingEnabled14mobileRequiredACSS_AA8LanguageOAA4CallVSgAA4UserVSgSbSgARtcfc",
+            "moduleName": "QboxWebWidget",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13QboxWebWidget8SettingsC",
+        "mangledName": "$s13QboxWebWidget8SettingsC",
+        "moduleName": "QboxWebWidget",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -262,8 +370,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "QboxWWCallType",
-        "printedName": "QboxWWCallType",
+        "name": "CallType",
+        "printedName": "CallType",
         "children": [
           {
             "kind": "Var",
@@ -273,24 +381,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(QboxWebWidget.QboxWWCallType.Type) -> QboxWebWidget.QboxWWCallType",
+                "printedName": "(QboxWebWidget.CallType.Type) -> QboxWebWidget.CallType",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "QboxWWCallType",
-                    "printedName": "QboxWebWidget.QboxWWCallType",
-                    "usr": "s:13QboxWebWidget0A10WWCallTypeO"
+                    "name": "CallType",
+                    "printedName": "QboxWebWidget.CallType",
+                    "usr": "s:13QboxWebWidget8CallTypeO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "QboxWebWidget.QboxWWCallType.Type",
+                    "printedName": "QboxWebWidget.CallType.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "QboxWWCallType",
-                        "printedName": "QboxWebWidget.QboxWWCallType",
-                        "usr": "s:13QboxWebWidget0A10WWCallTypeO"
+                        "name": "CallType",
+                        "printedName": "QboxWebWidget.CallType",
+                        "usr": "s:13QboxWebWidget8CallTypeO"
                       }
                     ]
                   }
@@ -298,8 +406,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:13QboxWebWidget0A10WWCallTypeO5videoyA2CmF",
-            "mangledName": "$s13QboxWebWidget0A10WWCallTypeO5videoyA2CmF",
+            "usr": "s:13QboxWebWidget8CallTypeO5videoyA2CmF",
+            "mangledName": "$s13QboxWebWidget8CallTypeO5videoyA2CmF",
             "moduleName": "QboxWebWidget"
           },
           {
@@ -310,24 +418,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(QboxWebWidget.QboxWWCallType.Type) -> QboxWebWidget.QboxWWCallType",
+                "printedName": "(QboxWebWidget.CallType.Type) -> QboxWebWidget.CallType",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "QboxWWCallType",
-                    "printedName": "QboxWebWidget.QboxWWCallType",
-                    "usr": "s:13QboxWebWidget0A10WWCallTypeO"
+                    "name": "CallType",
+                    "printedName": "QboxWebWidget.CallType",
+                    "usr": "s:13QboxWebWidget8CallTypeO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "QboxWebWidget.QboxWWCallType.Type",
+                    "printedName": "QboxWebWidget.CallType.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "QboxWWCallType",
-                        "printedName": "QboxWebWidget.QboxWWCallType",
-                        "usr": "s:13QboxWebWidget0A10WWCallTypeO"
+                        "name": "CallType",
+                        "printedName": "QboxWebWidget.CallType",
+                        "usr": "s:13QboxWebWidget8CallTypeO"
                       }
                     ]
                   }
@@ -335,8 +443,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:13QboxWebWidget0A10WWCallTypeO5audioyA2CmF",
-            "mangledName": "$s13QboxWebWidget0A10WWCallTypeO5audioyA2CmF",
+            "usr": "s:13QboxWebWidget8CallTypeO5audioyA2CmF",
+            "mangledName": "$s13QboxWebWidget8CallTypeO5audioyA2CmF",
             "moduleName": "QboxWebWidget"
           },
           {
@@ -347,13 +455,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "QboxWebWidget.QboxWWCallType?",
+                "printedName": "QboxWebWidget.CallType?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "QboxWWCallType",
-                    "printedName": "QboxWebWidget.QboxWWCallType",
-                    "usr": "s:13QboxWebWidget0A10WWCallTypeO"
+                    "name": "CallType",
+                    "printedName": "QboxWebWidget.CallType",
+                    "usr": "s:13QboxWebWidget8CallTypeO"
                   }
                 ],
                 "usr": "s:Sq"
@@ -366,8 +474,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13QboxWebWidget0A10WWCallTypeO8rawValueACSgSS_tcfc",
-            "mangledName": "$s13QboxWebWidget0A10WWCallTypeO8rawValueACSgSS_tcfc",
+            "usr": "s:13QboxWebWidget8CallTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s13QboxWebWidget8CallTypeO8rawValueACSgSS_tcfc",
             "moduleName": "QboxWebWidget",
             "implicit": true,
             "init_kind": "Designated"
@@ -385,8 +493,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:13QboxWebWidget0A10WWCallTypeO8rawValueSSvp",
-            "mangledName": "$s13QboxWebWidget0A10WWCallTypeO8rawValueSSvp",
+            "usr": "s:13QboxWebWidget8CallTypeO8rawValueSSvp",
+            "mangledName": "$s13QboxWebWidget8CallTypeO8rawValueSSvp",
             "moduleName": "QboxWebWidget",
             "implicit": true,
             "accessors": [
@@ -403,8 +511,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13QboxWebWidget0A10WWCallTypeO8rawValueSSvg",
-                "mangledName": "$s13QboxWebWidget0A10WWCallTypeO8rawValueSSvg",
+                "usr": "s:13QboxWebWidget8CallTypeO8rawValueSSvg",
+                "mangledName": "$s13QboxWebWidget8CallTypeO8rawValueSSvg",
                 "moduleName": "QboxWebWidget",
                 "implicit": true,
                 "accessorKind": "get"
@@ -413,8 +521,8 @@
           }
         ],
         "declKind": "Enum",
-        "usr": "s:13QboxWebWidget0A10WWCallTypeO",
-        "mangledName": "$s13QboxWebWidget0A10WWCallTypeO",
+        "usr": "s:13QboxWebWidget8CallTypeO",
+        "mangledName": "$s13QboxWebWidget8CallTypeO",
         "moduleName": "QboxWebWidget",
         "declAttributes": [
           "AccessControl"
@@ -461,8 +569,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "QboxWWCall",
-        "printedName": "QboxWWCall",
+        "name": "Call",
+        "printedName": "Call",
         "children": [
           {
             "kind": "Constructor",
@@ -471,9 +579,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "QboxWWCall",
-                "printedName": "QboxWebWidget.QboxWWCall",
-                "usr": "s:13QboxWebWidget0A6WWCallV"
+                "name": "Call",
+                "printedName": "QboxWebWidget.Call",
+                "usr": "s:13QboxWebWidget4CallV"
               },
               {
                 "kind": "TypeNominal",
@@ -483,9 +591,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "QboxWWCallType",
-                "printedName": "QboxWebWidget.QboxWWCallType",
-                "usr": "s:13QboxWebWidget0A10WWCallTypeO"
+                "name": "CallType",
+                "printedName": "QboxWebWidget.CallType",
+                "usr": "s:13QboxWebWidget8CallTypeO"
               },
               {
                 "kind": "TypeNominal",
@@ -495,8 +603,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13QboxWebWidget0A6WWCallV6domain4type5topicACSS_AA0aD4TypeOSStcfc",
-            "mangledName": "$s13QboxWebWidget0A6WWCallV6domain4type5topicACSS_AA0aD4TypeOSStcfc",
+            "usr": "s:13QboxWebWidget4CallV6domain4type5topicACSS_AA0D4TypeOSStcfc",
+            "mangledName": "$s13QboxWebWidget4CallV6domain4type5topicACSS_AA0D4TypeOSStcfc",
             "moduleName": "QboxWebWidget",
             "declAttributes": [
               "AccessControl"
@@ -505,8 +613,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:13QboxWebWidget0A6WWCallV",
-        "mangledName": "$s13QboxWebWidget0A6WWCallV",
+        "usr": "s:13QboxWebWidget4CallV",
+        "mangledName": "$s13QboxWebWidget4CallV",
         "moduleName": "QboxWebWidget",
         "declAttributes": [
           "AccessControl"
@@ -524,8 +632,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "QboxWWLocation",
-        "printedName": "QboxWWLocation",
+        "name": "Location",
+        "printedName": "Location",
         "children": [
           {
             "kind": "Constructor",
@@ -534,9 +642,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "QboxWWLocation",
-                "printedName": "QboxWebWidget.QboxWWLocation",
-                "usr": "s:13QboxWebWidget0A10WWLocationV"
+                "name": "Location",
+                "printedName": "QboxWebWidget.Location",
+                "usr": "s:13QboxWebWidget8LocationV"
               },
               {
                 "kind": "TypeNominal",
@@ -552,8 +660,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13QboxWebWidget0A10WWLocationV8latitude9longitudeACSd_Sdtcfc",
-            "mangledName": "$s13QboxWebWidget0A10WWLocationV8latitude9longitudeACSd_Sdtcfc",
+            "usr": "s:13QboxWebWidget8LocationV8latitude9longitudeACSd_Sdtcfc",
+            "mangledName": "$s13QboxWebWidget8LocationV8latitude9longitudeACSd_Sdtcfc",
             "moduleName": "QboxWebWidget",
             "declAttributes": [
               "AccessControl"
@@ -562,8 +670,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:13QboxWebWidget0A10WWLocationV",
-        "mangledName": "$s13QboxWebWidget0A10WWLocationV",
+        "usr": "s:13QboxWebWidget8LocationV",
+        "mangledName": "$s13QboxWebWidget8LocationV",
         "moduleName": "QboxWebWidget",
         "declAttributes": [
           "AccessControl"
@@ -571,8 +679,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "QboxWWDeviceBattery",
-        "printedName": "QboxWWDeviceBattery",
+        "name": "DeviceBattery",
+        "printedName": "DeviceBattery",
         "children": [
           {
             "kind": "Constructor",
@@ -581,9 +689,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "QboxWWDeviceBattery",
-                "printedName": "QboxWebWidget.QboxWWDeviceBattery",
-                "usr": "s:13QboxWebWidget0A15WWDeviceBatteryV"
+                "name": "DeviceBattery",
+                "printedName": "QboxWebWidget.DeviceBattery",
+                "usr": "s:13QboxWebWidget13DeviceBatteryV"
               },
               {
                 "kind": "TypeNominal",
@@ -617,8 +725,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13QboxWebWidget0A15WWDeviceBatteryV22batteryLevelPercentage0F10IsChargingACSiSg_SbSgtcfc",
-            "mangledName": "$s13QboxWebWidget0A15WWDeviceBatteryV22batteryLevelPercentage0F10IsChargingACSiSg_SbSgtcfc",
+            "usr": "s:13QboxWebWidget13DeviceBatteryV22batteryLevelPercentage0F10IsChargingACSiSg_SbSgtcfc",
+            "mangledName": "$s13QboxWebWidget13DeviceBatteryV22batteryLevelPercentage0F10IsChargingACSiSg_SbSgtcfc",
             "moduleName": "QboxWebWidget",
             "declAttributes": [
               "AccessControl"
@@ -627,8 +735,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:13QboxWebWidget0A15WWDeviceBatteryV",
-        "mangledName": "$s13QboxWebWidget0A15WWDeviceBatteryV",
+        "usr": "s:13QboxWebWidget13DeviceBatteryV",
+        "mangledName": "$s13QboxWebWidget13DeviceBatteryV",
         "moduleName": "QboxWebWidget",
         "declAttributes": [
           "AccessControl"
@@ -636,8 +744,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "QboxWWDevice",
-        "printedName": "QboxWWDevice",
+        "name": "Device",
+        "printedName": "Device",
         "children": [
           {
             "kind": "Constructor",
@@ -646,9 +754,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "QboxWWDevice",
-                "printedName": "QboxWebWidget.QboxWWDevice",
-                "usr": "s:13QboxWebWidget0A8WWDeviceV"
+                "name": "Device",
+                "printedName": "QboxWebWidget.Device",
+                "usr": "s:13QboxWebWidget6DeviceV"
               },
               {
                 "kind": "TypeNominal",
@@ -728,13 +836,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "QboxWebWidget.QboxWWDeviceBattery?",
+                "printedName": "QboxWebWidget.DeviceBattery?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "QboxWWDeviceBattery",
-                    "printedName": "QboxWebWidget.QboxWWDeviceBattery",
-                    "usr": "s:13QboxWebWidget0A15WWDeviceBatteryV"
+                    "name": "DeviceBattery",
+                    "printedName": "QboxWebWidget.DeviceBattery",
+                    "usr": "s:13QboxWebWidget13DeviceBatteryV"
                   }
                 ],
                 "hasDefaultArg": true,
@@ -742,8 +850,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13QboxWebWidget0A8WWDeviceV10systemName0E7Version05modelF014mobileOperator03appG07batteryACSSSg_A4jA0aD7BatteryVSgtcfc",
-            "mangledName": "$s13QboxWebWidget0A8WWDeviceV10systemName0E7Version05modelF014mobileOperator03appG07batteryACSSSg_A4jA0aD7BatteryVSgtcfc",
+            "usr": "s:13QboxWebWidget6DeviceV10systemName0E7Version05modelF014mobileOperator03appG07batteryACSSSg_A4jA0D7BatteryVSgtcfc",
+            "mangledName": "$s13QboxWebWidget6DeviceV10systemName0E7Version05modelF014mobileOperator03appG07batteryACSSSg_A4jA0D7BatteryVSgtcfc",
             "moduleName": "QboxWebWidget",
             "declAttributes": [
               "AccessControl"
@@ -752,8 +860,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:13QboxWebWidget0A8WWDeviceV",
-        "mangledName": "$s13QboxWebWidget0A8WWDeviceV",
+        "usr": "s:13QboxWebWidget6DeviceV",
+        "mangledName": "$s13QboxWebWidget6DeviceV",
         "moduleName": "QboxWebWidget",
         "declAttributes": [
           "AccessControl"
@@ -761,8 +869,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "QboxWWUser",
-        "printedName": "QboxWWUser",
+        "name": "User",
+        "printedName": "User",
         "children": [
           {
             "kind": "Constructor",
@@ -771,9 +879,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "QboxWWUser",
-                "printedName": "QboxWebWidget.QboxWWUser",
-                "usr": "s:13QboxWebWidget0A6WWUserV"
+                "name": "User",
+                "printedName": "QboxWebWidget.User",
+                "usr": "s:13QboxWebWidget4UserV"
               },
               {
                 "kind": "TypeNominal",
@@ -853,13 +961,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "QboxWebWidget.QboxWWLocation?",
+                "printedName": "QboxWebWidget.Location?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "QboxWWLocation",
-                    "printedName": "QboxWebWidget.QboxWWLocation",
-                    "usr": "s:13QboxWebWidget0A10WWLocationV"
+                    "name": "Location",
+                    "printedName": "QboxWebWidget.Location",
+                    "usr": "s:13QboxWebWidget8LocationV"
                   }
                 ],
                 "hasDefaultArg": true,
@@ -868,13 +976,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "QboxWebWidget.QboxWWDevice?",
+                "printedName": "QboxWebWidget.Device?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "QboxWWDevice",
-                    "printedName": "QboxWebWidget.QboxWWDevice",
-                    "usr": "s:13QboxWebWidget0A8WWDeviceV"
+                    "name": "Device",
+                    "printedName": "QboxWebWidget.Device",
+                    "usr": "s:13QboxWebWidget6DeviceV"
                   }
                 ],
                 "hasDefaultArg": true,
@@ -882,8 +990,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13QboxWebWidget0A6WWUserV9firstName04lastF010patronymic3iin11phoneNumber8location6deviceACSSSg_A4kA0A10WWLocationVSgAA0A8WWDeviceVSgtcfc",
-            "mangledName": "$s13QboxWebWidget0A6WWUserV9firstName04lastF010patronymic3iin11phoneNumber8location6deviceACSSSg_A4kA0A10WWLocationVSgAA0A8WWDeviceVSgtcfc",
+            "usr": "s:13QboxWebWidget4UserV9firstName04lastF010patronymic3iin11phoneNumber8location6deviceACSSSg_A4kA8LocationVSgAA6DeviceVSgtcfc",
+            "mangledName": "$s13QboxWebWidget4UserV9firstName04lastF010patronymic3iin11phoneNumber8location6deviceACSSSg_A4kA8LocationVSgAA6DeviceVSgtcfc",
             "moduleName": "QboxWebWidget",
             "declAttributes": [
               "AccessControl"
@@ -892,8 +1000,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:13QboxWebWidget0A6WWUserV",
-        "mangledName": "$s13QboxWebWidget0A6WWUserV",
+        "usr": "s:13QboxWebWidget4UserV",
+        "mangledName": "$s13QboxWebWidget4UserV",
         "moduleName": "QboxWebWidget",
         "declAttributes": [
           "AccessControl"
@@ -924,189 +1032,416 @@
         "moduleName": "QboxWebWidget"
       },
       {
-        "kind": "Function",
-        "name": "buildQboxWebWidget",
-        "printedName": "buildQboxWebWidget(url:language:call:user:loggingEnabled:)",
+        "kind": "TypeDecl",
+        "name": "WebViewController",
+        "printedName": "WebViewController",
         "children": [
           {
-            "kind": "TypeNominal",
-            "name": "UIViewController",
-            "printedName": "UIKit.UIViewController",
-            "usr": "c:objc(cs)UIViewController"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "String",
-            "printedName": "Swift.String",
-            "usr": "s:SS"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "QboxWWLanguage",
-            "printedName": "QboxWebWidget.QboxWWLanguage",
-            "usr": "s:13QboxWebWidget0A10WWLanguageO"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "QboxWWCall",
-            "printedName": "QboxWebWidget.QboxWWCall",
-            "usr": "s:13QboxWebWidget0A6WWCallV"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "Optional",
-            "printedName": "QboxWebWidget.QboxWWUser?",
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(settings:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "QboxWWUser",
-                "printedName": "QboxWebWidget.QboxWWUser",
-                "usr": "s:13QboxWebWidget0A6WWUserV"
+                "name": "Optional",
+                "printedName": "QboxWebWidget.WebViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WebViewController",
+                    "printedName": "QboxWebWidget.WebViewController",
+                    "usr": "c:@M@QboxWebWidget@objc(cs)WebViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Settings",
+                "printedName": "QboxWebWidget.Settings",
+                "usr": "s:13QboxWebWidget8SettingsC"
               }
             ],
-            "hasDefaultArg": true,
-            "usr": "s:Sq"
+            "declKind": "Constructor",
+            "usr": "s:13QboxWebWidget0B14ViewControllerC8settingsACSgAA8SettingsC_tcfc",
+            "mangledName": "$s13QboxWebWidget0B14ViewControllerC8settingsACSgAA8SettingsC_tcfc",
+            "moduleName": "QboxWebWidget",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
           },
           {
-            "kind": "TypeNominal",
-            "name": "Optional",
-            "printedName": "Swift.Bool?",
+            "kind": "Function",
+            "name": "reloadWidget",
+            "printedName": "reloadWidget()",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "Void",
+                "printedName": "()"
               }
             ],
-            "hasDefaultArg": true,
-            "usr": "s:Sq"
+            "declKind": "Func",
+            "usr": "s:13QboxWebWidget0B14ViewControllerC06reloadC0yyF",
+            "mangledName": "$s13QboxWebWidget0B14ViewControllerC06reloadC0yyF",
+            "moduleName": "QboxWebWidget",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QboxWebWidget@objc(cs)WebViewController(im)viewDidLoad",
+            "mangledName": "$s13QboxWebWidget0B14ViewControllerC11viewDidLoadyyF",
+            "moduleName": "QboxWebWidget",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didCommit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QboxWebWidget@objc(cs)WebViewController(im)webView:didCommitNavigation:",
+            "mangledName": "$s13QboxWebWidget0B14ViewControllerC03webD0_9didCommitySo05WKWebD0C_So12WKNavigationCSgtF",
+            "moduleName": "QboxWebWidget",
+            "objc_name": "webView:didCommitNavigation:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:decidePolicyFor:decisionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebKit.WKNavigationActionPolicy) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigationActionPolicy",
+                    "printedName": "WebKit.WKNavigationActionPolicy",
+                    "usr": "c:@E@WKNavigationActionPolicy"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QboxWebWidget@objc(cs)WebViewController(im)webView:decidePolicyForNavigationAction:decisionHandler:",
+            "mangledName": "$s13QboxWebWidget0B14ViewControllerC03webD0_15decidePolicyFor15decisionHandlerySo05WKWebD0C_So18WKNavigationActionCySo0mnH0VctF",
+            "moduleName": "QboxWebWidget",
+            "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WebViewController",
+                "printedName": "QboxWebWidget.WebViewController",
+                "usr": "c:@M@QboxWebWidget@objc(cs)WebViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@QboxWebWidget@objc(cs)WebViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s13QboxWebWidget0B14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "QboxWebWidget",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
           }
         ],
-        "declKind": "Func",
-        "usr": "s:13QboxWebWidget05buildabC03url8language4call4user14loggingEnabledSo16UIViewControllerCSS_AA0A10WWLanguageOAA0A6WWCallVAA0A6WWUserVSgSbSgtF",
-        "mangledName": "$s13QboxWebWidget05buildabC03url8language4call4user14loggingEnabledSo16UIViewControllerCSS_AA0A10WWLanguageOAA0A6WWCallVAA0A6WWUserVSgSbSgtF",
+        "declKind": "Class",
+        "usr": "c:@M@QboxWebWidget@objc(cs)WebViewController",
+        "mangledName": "$s13QboxWebWidget0B14ViewControllerC",
         "moduleName": "QboxWebWidget",
         "declAttributes": [
-          "AccessControl"
+          "Custom",
+          "AccessControl",
+          "ObjC"
         ],
-        "funcSelfKind": "NonMutating"
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/SettingsModel.swift",
+      "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/Models\/SettingsModel.swift",
       "kind": "StringLiteral",
-      "offset": 131,
-      "length": 13,
-      "value": "\"📕 error:\""
+      "offset": 138,
+      "length": 10,
+      "value": "\"[QboxWW]\""
     },
     {
-      "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/SettingsModel.swift",
+      "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/Models\/SettingsModel.swift",
       "kind": "StringLiteral",
-      "offset": 156,
-      "length": 12,
-      "value": "\"📘 note:\""
+      "offset": 160,
+      "length": 28,
+      "value": "\"📕 error: \""
     },
     {
-      "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/UserModel.swift",
+      "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/Models\/SettingsModel.swift",
       "kind": "StringLiteral",
-      "offset": 1814,
+      "offset": 187,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/Models\/SettingsModel.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 27,
+      "value": "\"📘 note: \""
+    },
+    {
+      "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/Models\/SettingsModel.swift",
+      "kind": "StringLiteral",
+      "offset": 226,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/Models\/UserModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1778,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/UserModel.swift",
+      "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/Models\/UserModel.swift",
       "kind": "StringLiteral",
-      "offset": 1843,
+      "offset": 1807,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/UserModel.swift",
+      "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/Models\/UserModel.swift",
       "kind": "StringLiteral",
-      "offset": 1874,
+      "offset": 1838,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/UserModel.swift",
+      "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/Models\/UserModel.swift",
       "kind": "StringLiteral",
-      "offset": 1898,
+      "offset": 1862,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/UserModel.swift",
+      "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/Models\/UserModel.swift",
       "kind": "StringLiteral",
-      "offset": 1930,
+      "offset": 1894,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 310,
+      "offset": 1247,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 874,
-      "length": 9,
-      "value": "\"?topic=\""
-    },
-    {
-      "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 925,
-      "length": 8,
-      "value": "\"&lang=\""
-    },
-    {
-      "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1176,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1202,
+      "offset": 1273,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1402,
+      "offset": 1473,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1541,
-      "length": 10,
-      "value": "\"Жабу\""
-    },
-    {
-      "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1585,
-      "length": 7,
-      "value": "\"Close\""
-    },
-    {
-      "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1625,
-      "length": 16,
-      "value": "\"Закрыть\""
+      "offset": 176,
+      "length": 17,
+      "value": "\"QboxWebWidget.WebViewController\""
     }
   ]
 }

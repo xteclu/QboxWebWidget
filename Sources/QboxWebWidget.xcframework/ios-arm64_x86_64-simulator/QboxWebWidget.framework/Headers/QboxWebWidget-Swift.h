@@ -230,6 +230,9 @@ using UInt = size_t;
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import SafariServices;
+@import UIKit;
+@import WebKit;
 #endif
 
 #endif
@@ -250,6 +253,22 @@ using UInt = size_t;
 #endif
 
 #if defined(__OBJC__)
+@class NSCoder;
+@class WKWebView;
+@class WKNavigation;
+@class WKNavigationAction;
+@class NSString;
+@class NSBundle;
+
+SWIFT_CLASS("_TtC13QboxWebWidget17WebViewController")
+@interface WebViewController : UIViewController <SFSafariViewControllerDelegate, WKNavigationDelegate, WKUIDelegate>
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)viewDidLoad;
+- (void)webView:(WKWebView * _Nonnull)webView didCommitNavigation:(WKNavigation * _Null_unspecified)navigation;
+- (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
 #endif
 #if defined(__cplusplus)
 #endif
@@ -490,6 +509,9 @@ using UInt = size_t;
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import SafariServices;
+@import UIKit;
+@import WebKit;
 #endif
 
 #endif
@@ -510,6 +532,22 @@ using UInt = size_t;
 #endif
 
 #if defined(__OBJC__)
+@class NSCoder;
+@class WKWebView;
+@class WKNavigation;
+@class WKNavigationAction;
+@class NSString;
+@class NSBundle;
+
+SWIFT_CLASS("_TtC13QboxWebWidget17WebViewController")
+@interface WebViewController : UIViewController <SFSafariViewControllerDelegate, WKNavigationDelegate, WKUIDelegate>
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)viewDidLoad;
+- (void)webView:(WKWebView * _Nonnull)webView didCommitNavigation:(WKNavigation * _Null_unspecified)navigation;
+- (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
 #endif
 #if defined(__cplusplus)
 #endif
