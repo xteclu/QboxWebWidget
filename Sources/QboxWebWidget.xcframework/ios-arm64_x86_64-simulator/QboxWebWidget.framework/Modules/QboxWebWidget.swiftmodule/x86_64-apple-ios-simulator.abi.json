@@ -1043,17 +1043,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "QboxWebWidget.WebViewController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "WebViewController",
-                    "printedName": "QboxWebWidget.WebViewController",
-                    "usr": "c:@M@QboxWebWidget@objc(cs)WebViewController"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "WebViewController",
+                "printedName": "QboxWebWidget.WebViewController",
+                "usr": "c:@M@QboxWebWidget@objc(cs)WebViewController"
               },
               {
                 "kind": "TypeNominal",
@@ -1063,8 +1055,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13QboxWebWidget0B14ViewControllerC8settingsACSgAA8SettingsC_tcfc",
-            "mangledName": "$s13QboxWebWidget0B14ViewControllerC8settingsACSgAA8SettingsC_tcfc",
+            "usr": "s:13QboxWebWidget0B14ViewControllerC8settingsAcA8SettingsC_tcfc",
+            "mangledName": "$s13QboxWebWidget0B14ViewControllerC8settingsAcA8SettingsC_tcfc",
             "moduleName": "QboxWebWidget",
             "declAttributes": [
               "Custom",
@@ -1073,9 +1065,42 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WebViewController",
+                "printedName": "QboxWebWidget.WebViewController",
+                "usr": "c:@M@QboxWebWidget@objc(cs)WebViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@QboxWebWidget@objc(cs)WebViewController(im)initWithCoder:",
+            "mangledName": "$s13QboxWebWidget0B14ViewControllerC5coderACSo7NSCoderC_tcfc",
+            "moduleName": "QboxWebWidget",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
-            "name": "reloadWidget",
-            "printedName": "reloadWidget()",
+            "name": "reloadPage",
+            "printedName": "reloadPage()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1084,8 +1109,46 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13QboxWebWidget0B14ViewControllerC06reloadC0yyF",
-            "mangledName": "$s13QboxWebWidget0B14ViewControllerC06reloadC0yyF",
+            "usr": "s:13QboxWebWidget0B14ViewControllerC10reloadPageyyF",
+            "mangledName": "$s13QboxWebWidget0B14ViewControllerC10reloadPageyyF",
+            "moduleName": "QboxWebWidget",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearCache",
+            "printedName": "clearCache(completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13QboxWebWidget0B14ViewControllerC10clearCache17completionHandleryyyc_tF",
+            "mangledName": "$s13QboxWebWidget0B14ViewControllerC10clearCache17completionHandleryyyc_tF",
             "moduleName": "QboxWebWidget",
             "declAttributes": [
               "Custom",
@@ -1277,13 +1340,13 @@
         "usr": "c:@M@QboxWebWidget@objc(cs)WebViewController",
         "mangledName": "$s13QboxWebWidget0B14ViewControllerC",
         "moduleName": "QboxWebWidget",
+        "isOpen": true,
         "declAttributes": [
           "Custom",
           "AccessControl",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)UIViewController",
-        "hasMissingDesignatedInitializers": true,
         "superclassNames": [
           "UIKit.UIViewController",
           "UIKit.UIResponder",
@@ -1418,28 +1481,28 @@
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1247,
+      "offset": 1521,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1273,
+      "offset": 1547,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1473,
+      "offset": 1747,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
       "kind": "StringLiteral",
-      "offset": 176,
+      "offset": 174,
       "length": 17,
       "value": "\"QboxWebWidget.WebViewController\""
     }
