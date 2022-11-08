@@ -1172,6 +1172,7 @@
             "mangledName": "$s13QboxWebWidget0B14ViewControllerC11viewDidLoadyyF",
             "moduleName": "QboxWebWidget",
             "overriding": true,
+            "isOpen": true,
             "objc_name": "viewDidLoad",
             "declAttributes": [
               "Dynamic",
@@ -1218,6 +1219,7 @@
             "usr": "c:@M@QboxWebWidget@objc(cs)WebViewController(im)webView:didCommitNavigation:",
             "mangledName": "$s13QboxWebWidget0B14ViewControllerC03webD0_9didCommitySo05WKWebD0C_So12WKNavigationCSgtF",
             "moduleName": "QboxWebWidget",
+            "isOpen": true,
             "objc_name": "webView:didCommitNavigation:",
             "declAttributes": [
               "ObjC",
@@ -1272,6 +1274,7 @@
             "usr": "c:@M@QboxWebWidget@objc(cs)WebViewController(im)webView:decidePolicyForNavigationAction:decisionHandler:",
             "mangledName": "$s13QboxWebWidget0B14ViewControllerC03webD0_15decidePolicyFor15decisionHandlerySo05WKWebD0C_So18WKNavigationActionCySo0mnH0VctF",
             "moduleName": "QboxWebWidget",
+            "isOpen": true,
             "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
             "declAttributes": [
               "ObjC",
