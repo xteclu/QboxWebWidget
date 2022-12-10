@@ -18,8 +18,7 @@ public enum Language : Swift.String {
     get
   }
 }
-public class Settings {
-  public init(url: Swift.String, language: QboxWebWidget.Language, call: QboxWebWidget.Call? = nil, user: QboxWebWidget.User? = nil, loggingEnabled: Swift.Bool? = nil, mobileRequired: Swift.Bool? = nil)
+@_hasMissingDesignatedInitializers public class Settings {
   @objc deinit
 }
 public enum CallType : Swift.String {
@@ -31,10 +30,6 @@ public enum CallType : Swift.String {
   }
 }
 public struct Call {
-  public init(domain: Swift.String, type: QboxWebWidget.CallType, topic: Swift.String)
-}
-public struct Location {
-  public init(latitude: Swift.Double, longitude: Swift.Double)
 }
 public struct DeviceBattery {
   public init(batteryLevelPercentage: Swift.Int? = nil, batteryIsCharging: Swift.Bool? = nil)
@@ -42,8 +37,10 @@ public struct DeviceBattery {
 public struct Device {
   public init(systemName: Swift.String? = nil, systemVersion: Swift.String? = nil, modelName: Swift.String? = nil, mobileOperator: Swift.String? = nil, appVersion: Swift.String? = nil, battery: QboxWebWidget.DeviceBattery? = nil)
 }
+public struct Location {
+  public init(latitude: Swift.Double, longitude: Swift.Double)
+}
 public struct User {
-  public init(firstName: Swift.String? = nil, lastName: Swift.String? = nil, patronymic: Swift.String? = nil, iin: Swift.String? = nil, phoneNumber: Swift.String? = nil, location: QboxWebWidget.Location? = nil, device: QboxWebWidget.Device? = nil)
 }
 @objc @_Concurrency.MainActor(unsafe) open class WebViewController : UIKit.UIViewController, WebKit.WKUIDelegate, WebKit.WKNavigationDelegate, SafariServices.SFSafariViewControllerDelegate {
   @_Concurrency.MainActor(unsafe) public init(settings: QboxWebWidget.Settings)
