@@ -259,7 +259,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(url:language:call:user:device:loggingEnabled:mobileRequired:)",
+            "printedName": "init(url:language:call:user:device:loggingEnabled:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -338,26 +338,11 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13QboxWebWidget8SettingsC3url8language4call4user6device14loggingEnabled14mobileRequiredACSS_AA8LanguageOAA4CallVSgAA4UserVSgAA6DeviceVSgSbSgAVtcfc",
-            "mangledName": "$s13QboxWebWidget8SettingsC3url8language4call4user6device14loggingEnabled14mobileRequiredACSS_AA8LanguageOAA4CallVSgAA4UserVSgAA6DeviceVSgSbSgAVtcfc",
+            "usr": "s:13QboxWebWidget8SettingsC3url8language4call4user6device14loggingEnabledACSS_AA8LanguageOAA4CallVSgAA4UserVSgAA6DeviceVSgSbSgtcfc",
+            "mangledName": "$s13QboxWebWidget8SettingsC3url8language4call4user6device14loggingEnabledACSS_AA8LanguageOAA4CallVSgAA4UserVSgAA6DeviceVSgSbSgtcfc",
             "moduleName": "QboxWebWidget",
             "declAttributes": [
               "AccessControl"
