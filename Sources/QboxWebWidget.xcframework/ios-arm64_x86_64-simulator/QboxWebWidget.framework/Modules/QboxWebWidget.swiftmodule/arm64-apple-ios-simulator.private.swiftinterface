@@ -18,7 +18,8 @@ public enum Language : Swift.String {
     get
   }
 }
-@_hasMissingDesignatedInitializers public class Settings {
+public class Settings {
+  public init(url: Swift.String, language: QboxWebWidget.Language, call: QboxWebWidget.Call? = nil, user: QboxWebWidget.User? = nil, device: QboxWebWidget.Device? = nil, loggingEnabled: Swift.Bool? = nil, mobileRequired: Swift.Bool? = nil)
   @objc deinit
 }
 public enum CallType : Swift.String {
