@@ -255,14 +255,118 @@
         "kind": "TypeDecl",
         "name": "Settings",
         "printedName": "Settings",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(url:language:call:user:device:loggingEnabled:mobileRequired:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Settings",
+                "printedName": "QboxWebWidget.Settings",
+                "usr": "s:13QboxWebWidget8SettingsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Language",
+                "printedName": "QboxWebWidget.Language",
+                "usr": "s:13QboxWebWidget8LanguageO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "QboxWebWidget.Call?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Call",
+                    "printedName": "QboxWebWidget.Call",
+                    "usr": "s:13QboxWebWidget4CallV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "QboxWebWidget.User?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "User",
+                    "printedName": "QboxWebWidget.User",
+                    "usr": "s:13QboxWebWidget4UserV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "QboxWebWidget.Device?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Device",
+                    "printedName": "QboxWebWidget.Device",
+                    "usr": "s:13QboxWebWidget6DeviceV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13QboxWebWidget8SettingsC3url8language4call4user6device14loggingEnabled14mobileRequiredACSS_AA8LanguageOAA4CallVSgAA4UserVSgAA6DeviceVSgSbSgAVtcfc",
+            "mangledName": "$s13QboxWebWidget8SettingsC3url8language4call4user6device14loggingEnabled14mobileRequiredACSS_AA8LanguageOAA4CallVSgAA4UserVSgAA6DeviceVSgSbSgAVtcfc",
+            "moduleName": "QboxWebWidget",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
         "declKind": "Class",
         "usr": "s:13QboxWebWidget8SettingsC",
         "mangledName": "$s13QboxWebWidget8SettingsC",
         "moduleName": "QboxWebWidget",
         "declAttributes": [
           "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true
+        ]
       },
       {
         "kind": "Import",
@@ -477,6 +581,89 @@
         "kind": "TypeDecl",
         "name": "Call",
         "printedName": "Call",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(domain:type:topic:location:dynamicAttrs:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Call",
+                "printedName": "QboxWebWidget.Call",
+                "usr": "s:13QboxWebWidget4CallV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CallType",
+                "printedName": "QboxWebWidget.CallType",
+                "usr": "s:13QboxWebWidget8CallTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "QboxWebWidget.Location?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Location",
+                    "printedName": "QboxWebWidget.Location",
+                    "usr": "s:13QboxWebWidget8LocationV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13QboxWebWidget4CallV6domain4type5topic8location12dynamicAttrsACSS_AA0D4TypeOSSAA8LocationVSgSDySSypSgGtcfc",
+            "mangledName": "$s13QboxWebWidget4CallV6domain4type5topic8location12dynamicAttrsACSS_AA0D4TypeOSSAA8LocationVSgSDySSypSgGtcfc",
+            "moduleName": "QboxWebWidget",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
         "declKind": "Struct",
         "usr": "s:13QboxWebWidget4CallV",
         "mangledName": "$s13QboxWebWidget4CallV",
@@ -746,6 +933,149 @@
         "kind": "TypeDecl",
         "name": "User",
         "printedName": "User",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:firstName:lastName:patronymic:birthDate:iin:phoneNumber:location:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "User",
+                "printedName": "QboxWebWidget.User",
+                "usr": "s:13QboxWebWidget4UserV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "QboxWebWidget.Location?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Location",
+                    "printedName": "QboxWebWidget.Location",
+                    "usr": "s:13QboxWebWidget8LocationV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13QboxWebWidget4UserV2id9firstName04lastG010patronymic9birthDate3iin11phoneNumber8locationACSiSg_SSSgA2M10Foundation0K0VSgA2mA8LocationVSgtcfc",
+            "mangledName": "$s13QboxWebWidget4UserV2id9firstName04lastG010patronymic9birthDate3iin11phoneNumber8locationACSiSg_SSSgA2M10Foundation0K0VSgA2mA8LocationVSgtcfc",
+            "moduleName": "QboxWebWidget",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
         "declKind": "Struct",
         "usr": "s:13QboxWebWidget4UserV",
         "mangledName": "$s13QboxWebWidget4UserV",
