@@ -2,6 +2,7 @@
 // swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
 // swift-module-flags: -target arm64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name QboxWebWidget
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import CoreTelephony
 import Foundation
 @_exported import QboxWebWidget
 import SafariServices
@@ -21,6 +22,9 @@ public enum Language : Swift.String {
 public class Settings {
   public init(url: Swift.String, language: QboxWebWidget.Language, call: QboxWebWidget.Call? = nil, user: QboxWebWidget.User? = nil, device: QboxWebWidget.Device? = nil, loggingEnabled: Swift.Bool? = nil)
   @objc deinit
+}
+extension UIKit.UIDevice {
+  @_Concurrency.MainActor(unsafe) public static let modelName: Swift.String
 }
 public enum CallType : Swift.String {
   case video, audio

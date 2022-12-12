@@ -253,6 +253,7 @@ using UInt = size_t;
 #endif
 
 #if defined(__OBJC__)
+
 @class NSCoder;
 @class WKWebView;
 @class WKNavigation;
