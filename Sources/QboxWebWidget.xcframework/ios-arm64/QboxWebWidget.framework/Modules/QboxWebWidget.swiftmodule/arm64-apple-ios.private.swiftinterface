@@ -26,6 +26,9 @@ public class Settings {
 extension UIKit.UIDevice {
   @_Concurrency.MainActor(unsafe) public static let modelName: Swift.String
 }
+public struct Location {
+  public init(latitude: Swift.Double, longitude: Swift.Double)
+}
 public enum CallType : Swift.String {
   case video, audio
   public init?(rawValue: Swift.String)
@@ -42,9 +45,6 @@ public struct DeviceBattery {
 }
 public struct Device {
   public init(systemName: Swift.String? = nil, systemVersion: Swift.String? = nil, modelName: Swift.String? = nil, mobileOperator: Swift.String? = nil, appVersion: Swift.String? = nil, battery: QboxWebWidget.DeviceBattery? = nil)
-}
-public struct Location {
-  public init(latitude: Swift.Double, longitude: Swift.Double)
 }
 public struct User {
   public init(id: Swift.Int? = nil, firstName: Swift.String? = nil, lastName: Swift.String? = nil, patronymic: Swift.String? = nil, birthDate: Foundation.Date? = nil, iin: Swift.String? = nil, phoneNumber: Swift.String? = nil, dynamicAttrs: [Swift.String : Any?] = [:])

@@ -384,6 +384,53 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "Location",
+        "printedName": "Location",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(latitude:longitude:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Location",
+                "printedName": "QboxWebWidget.Location",
+                "usr": "s:13QboxWebWidget8LocationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13QboxWebWidget8LocationV8latitude9longitudeACSd_Sdtcfc",
+            "mangledName": "$s13QboxWebWidget8LocationV8latitude9longitudeACSd_Sdtcfc",
+            "moduleName": "QboxWebWidget",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13QboxWebWidget8LocationV",
+        "mangledName": "$s13QboxWebWidget8LocationV",
+        "moduleName": "QboxWebWidget",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "CallType",
         "printedName": "CallType",
         "children": [
@@ -885,53 +932,6 @@
         "moduleName": "QboxWebWidget",
         "declAttributes": [
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Location",
-        "printedName": "Location",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(latitude:longitude:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Location",
-                "printedName": "QboxWebWidget.Location",
-                "usr": "s:13QboxWebWidget8LocationV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:13QboxWebWidget8LocationV8latitude9longitudeACSd_Sdtcfc",
-            "mangledName": "$s13QboxWebWidget8LocationV8latitude9longitudeACSd_Sdtcfc",
-            "moduleName": "QboxWebWidget",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:13QboxWebWidget8LocationV",
-        "mangledName": "$s13QboxWebWidget8LocationV",
-        "moduleName": "QboxWebWidget",
-        "declAttributes": [
-          "AccessControl"
         ]
       },
       {
@@ -3186,35 +3186,35 @@
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/Models\/CallModel.swift",
       "kind": "Dictionary",
-      "offset": 331,
+      "offset": 638,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/Models\/CallModel.swift",
       "kind": "Dictionary",
-      "offset": 663,
+      "offset": 970,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/Models\/UserModel.swift",
       "kind": "Dictionary",
-      "offset": 684,
+      "offset": 378,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/Models\/UserModel.swift",
       "kind": "StringLiteral",
-      "offset": 799,
+      "offset": 493,
       "length": 12,
       "value": "\"dd.MM.YYYY\""
     },
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/Models\/UserModel.swift",
       "kind": "Dictionary",
-      "offset": 1329,
+      "offset": 1043,
       "length": 3,
       "value": "[]"
     },
