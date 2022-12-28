@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/QboxWebWidget.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		2Z8iz3uPoUXBpsdxKl1nsVqtcg8=
+		wyH/WYBA3h5feGaOzK+mhS9LFKI=
 		</data>
 		<key>Modules/QboxWebWidget.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/QboxWebWidget.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		2Z8iz3uPoUXBpsdxKl1nsVqtcg8=
+		wyH/WYBA3h5feGaOzK+mhS9LFKI=
 		</data>
 		<key>Modules/QboxWebWidget.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WLLTOd4wNdTQBJxU7e0UxKjKdwo+pe/8X7lYqf1CQgk=
+			0jSr4U0kCRc9ZXNDm7/UQYHr5r7D/x2MYGa3f1TvwSc=
 			</data>
 		</dict>
 		<key>Modules/QboxWebWidget.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -116,7 +116,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WLLTOd4wNdTQBJxU7e0UxKjKdwo+pe/8X7lYqf1CQgk=
+			0jSr4U0kCRc9ZXNDm7/UQYHr5r7D/x2MYGa3f1TvwSc=
 			</data>
 		</dict>
 		<key>Modules/QboxWebWidget.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
