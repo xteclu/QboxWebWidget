@@ -1253,6 +1253,204 @@
           },
           {
             "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:runJavaScriptAlertPanelWithMessage:initiatedByFrame:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKFrameInfo",
+                "printedName": "WebKit.WKFrameInfo",
+                "usr": "c:objc(cs)WKFrameInfo"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QboxWebWidget@objc(cs)WebViewController(im)webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:completionHandler:",
+            "mangledName": "$s13QboxWebWidget0B14ViewControllerC03webD0_34runJavaScriptAlertPanelWithMessage16initiatedByFrame17completionHandlerySo05WKWebD0C_SSSo11WKFrameInfoCyyctF",
+            "moduleName": "QboxWebWidget",
+            "objc_name": "webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:completionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:runJavaScriptConfirmPanelWithMessage:initiatedByFrame:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKFrameInfo",
+                "printedName": "WebKit.WKFrameInfo",
+                "usr": "c:objc(cs)WKFrameInfo"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QboxWebWidget@objc(cs)WebViewController(im)webView:runJavaScriptConfirmPanelWithMessage:initiatedByFrame:completionHandler:",
+            "mangledName": "$s13QboxWebWidget0B14ViewControllerC03webD0_36runJavaScriptConfirmPanelWithMessage16initiatedByFrame17completionHandlerySo05WKWebD0C_SSSo11WKFrameInfoCySbctF",
+            "moduleName": "QboxWebWidget",
+            "objc_name": "webView:runJavaScriptConfirmPanelWithMessage:initiatedByFrame:completionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:runJavaScriptTextInputPanelWithPrompt:defaultText:initiatedByFrame:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKFrameInfo",
+                "printedName": "WebKit.WKFrameInfo",
+                "usr": "c:objc(cs)WKFrameInfo"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QboxWebWidget@objc(cs)WebViewController(im)webView:runJavaScriptTextInputPanelWithPrompt:defaultText:initiatedByFrame:completionHandler:",
+            "mangledName": "$s13QboxWebWidget0B14ViewControllerC03webD0_37runJavaScriptTextInputPanelWithPrompt07defaultJ016initiatedByFrame17completionHandlerySo05WKWebD0C_S2SSgSo11WKFrameInfoCyAKctF",
+            "moduleName": "QboxWebWidget",
+            "objc_name": "webView:runJavaScriptTextInputPanelWithPrompt:defaultText:initiatedByFrame:completionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "viewDidLoad",
             "printedName": "viewDidLoad()",
             "children": [

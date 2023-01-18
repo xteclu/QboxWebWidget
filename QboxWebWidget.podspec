@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QboxWebWidget'
-  s.version          = '0.1.8'
+  s.version          = '0.1.9'
   s.license          = { :type => 'MIT', :text => <<-LICENSE
     Copyright (c) 2022 Q19
     
