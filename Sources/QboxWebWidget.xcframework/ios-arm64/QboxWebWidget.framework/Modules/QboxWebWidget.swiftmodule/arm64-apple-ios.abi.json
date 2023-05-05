@@ -1525,6 +1525,28 @@
           },
           {
             "kind": "Function",
+            "name": "customViewDidLoad",
+            "printedName": "customViewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13QboxWebWidget0B14ViewControllerC06customD7DidLoadyyF",
+            "mangledName": "$s13QboxWebWidget0B14ViewControllerC06customD7DidLoadyyF",
+            "moduleName": "QboxWebWidget",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "viewDidLoad",
             "printedName": "viewDidLoad()",
             "children": [
@@ -3493,21 +3515,21 @@
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1931,
+      "offset": 2141,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1957,
+      "offset": 2167,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2157,
+      "offset": 2367,
       "length": 5,
       "value": "false"
     },
