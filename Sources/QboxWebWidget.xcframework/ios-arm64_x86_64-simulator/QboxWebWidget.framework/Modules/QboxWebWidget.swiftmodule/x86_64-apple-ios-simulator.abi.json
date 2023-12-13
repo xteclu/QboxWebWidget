@@ -1300,6 +1300,7 @@
             "usr": "s:13QboxWebWidget0B14ViewControllerC16callStateHandleryySDySSypGF",
             "mangledName": "$s13QboxWebWidget0B14ViewControllerC16callStateHandleryySDySSypGF",
             "moduleName": "QboxWebWidget",
+            "isOpen": true,
             "declAttributes": [
               "Custom",
               "AccessControl"
@@ -3568,21 +3569,21 @@
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2042,
+      "offset": 2040,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2068,
+      "offset": 2066,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2268,
+      "offset": 2266,
       "length": 5,
       "value": "false"
     },

@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/QboxWebWidget.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		8eV5aG//72sdfVyIGSqYFZXBcnI=
+		wuTRidndBZDsYadWEFH08TPzexc=
 		</data>
 		<key>Modules/QboxWebWidget.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Vwksvn8K9TJ9AxGXFICRIHNV+kk=
+		zNCs48rCwlLpFa7UkayV6jsLyj0=
 		</data>
 		<key>Modules/QboxWebWidget.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/QboxWebWidget.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Vwksvn8K9TJ9AxGXFICRIHNV+kk=
+		zNCs48rCwlLpFa7UkayV6jsLyj0=
 		</data>
 		<key>Modules/QboxWebWidget.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9F9Ysgu21GHmXcg9TFPVMlrRUrQ=
+		drz/9NzesbxwHgzNjKtiE93gflk=
 		</data>
 		<key>Modules/QboxWebWidget.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		8eV5aG//72sdfVyIGSqYFZXBcnI=
+		wuTRidndBZDsYadWEFH08TPzexc=
 		</data>
 		<key>Modules/QboxWebWidget.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		gSWw1+b5YnH9bWsWs771uha10Ww=
+		3zzm4i2YmSRYRb31BHHuMPVc8/o=
 		</data>
 		<key>Modules/QboxWebWidget.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/QboxWebWidget.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		gSWw1+b5YnH9bWsWs771uha10Ww=
+		3zzm4i2YmSRYRb31BHHuMPVc8/o=
 		</data>
 		<key>Modules/QboxWebWidget.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		W7gohxsNVvSn64hTbwyMtA3Rics=
+		ZRi/9c5zeGlcMopDBFs/hdaMq2Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CrQs+8mFS9X44ZvuDN+5BaPjrTOo3OjqLflyk7jCnXA=
+			cNvKOE+xBvmRdGUXOX65YvDyFQJK3StqgtOgPqp0tTM=
 			</data>
 		</dict>
 		<key>Modules/QboxWebWidget.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2HKDo8F5H9ZLzG3Pu7eXmeAGbCkCjQaFDcrkYCPEvXI=
+			8vyd37vvfPVa5rWL+4vzghedZ283rGMWHH7Pd1OnDaA=
 			</data>
 		</dict>
 		<key>Modules/QboxWebWidget.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2HKDo8F5H9ZLzG3Pu7eXmeAGbCkCjQaFDcrkYCPEvXI=
+			8vyd37vvfPVa5rWL+4vzghedZ283rGMWHH7Pd1OnDaA=
 			</data>
 		</dict>
 		<key>Modules/QboxWebWidget.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vuybUVBDIZ62r1cAi1FY7K+QI1rmZFRf6HgmAdWA6Jc=
+			KE9/60F+/pusPY0WccaVs01OAdmNgAsNXOT6ec8dL+8=
 			</data>
 		</dict>
 		<key>Modules/QboxWebWidget.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CrQs+8mFS9X44ZvuDN+5BaPjrTOo3OjqLflyk7jCnXA=
+			cNvKOE+xBvmRdGUXOX65YvDyFQJK3StqgtOgPqp0tTM=
 			</data>
 		</dict>
 		<key>Modules/QboxWebWidget.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4+WnP3YslmMlTeDklG7EBIH6bPgUYoLZZc/YreS53IA=
+			eMxI7wAPdtkgG81xuRw8FgjIUYSnIEgR7tkmMHh0HgE=
 			</data>
 		</dict>
 		<key>Modules/QboxWebWidget.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4+WnP3YslmMlTeDklG7EBIH6bPgUYoLZZc/YreS53IA=
+			eMxI7wAPdtkgG81xuRw8FgjIUYSnIEgR7tkmMHh0HgE=
 			</data>
 		</dict>
 		<key>Modules/QboxWebWidget.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KKvW0dnRW39Blf5gtUdQxXFdFJZJIiApIqY/XxgenmE=
+			VAH668eFIlukAJPDAoNbqz9WEqkHzUMrTpPX99Kt3U8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
