@@ -1268,6 +1268,46 @@
           },
           {
             "kind": "Function",
+            "name": "callStateHandler",
+            "printedName": "callStateHandler(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13QboxWebWidget0B14ViewControllerC16callStateHandleryySDySSypGF",
+            "mangledName": "$s13QboxWebWidget0B14ViewControllerC16callStateHandleryySDySSypGF",
+            "moduleName": "QboxWebWidget",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "reloadPage",
             "printedName": "reloadPage()",
             "children": [
@@ -1525,28 +1565,6 @@
           },
           {
             "kind": "Function",
-            "name": "customViewDidLoad",
-            "printedName": "customViewDidLoad()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13QboxWebWidget0B14ViewControllerC06customD7DidLoadyyF",
-            "mangledName": "$s13QboxWebWidget0B14ViewControllerC06customD7DidLoadyyF",
-            "moduleName": "QboxWebWidget",
-            "isOpen": true,
-            "declAttributes": [
-              "Custom",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "viewDidLoad",
             "printedName": "viewDidLoad()",
             "children": [
@@ -1665,6 +1683,41 @@
             "moduleName": "QboxWebWidget",
             "isOpen": true,
             "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userContentController",
+            "printedName": "userContentController(_:didReceive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKUserContentController",
+                "printedName": "WebKit.WKUserContentController",
+                "usr": "c:objc(cs)WKUserContentController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKScriptMessage",
+                "printedName": "WebKit.WKScriptMessage",
+                "usr": "c:objc(cs)WKScriptMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QboxWebWidget@objc(cs)WebViewController(im)userContentController:didReceiveScriptMessage:",
+            "mangledName": "$s13QboxWebWidget0B14ViewControllerC011userContentE0_10didReceiveySo06WKUsergE0C_So15WKScriptMessageCtF",
+            "moduleName": "QboxWebWidget",
+            "objc_name": "userContentController:didReceiveScriptMessage:",
             "declAttributes": [
               "ObjC",
               "Custom",
@@ -3515,21 +3568,21 @@
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2141,
+      "offset": 2042,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2167,
+      "offset": 2068,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2367,
+      "offset": 2268,
       "length": 5,
       "value": "false"
     },

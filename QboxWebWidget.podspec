@@ -1,9 +1,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QboxWebWidget'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.license          = { :type => 'MIT', :text => <<-LICENSE
-    Copyright (c) 2022 Q19
+    Copyright (c) 2023 Q19
     
     Permission is hereby granted, free of charge, to any person obtaining
     a copy of this software and associated documentation files (the

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/QboxWebWidget-Swift.h</key>
 		<data>
-		pvwWONBwi+yTekuz/hH67siediE=
+		o5vKAKPZwc4G3uTETczkSugEIho=
 		</data>
 		<key>Headers/QboxWebWidget.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/QboxWebWidget.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		SxqwKVz8a0AL/B7zzOJ98N9kJJM=
+		8eV5aG//72sdfVyIGSqYFZXBcnI=
 		</data>
 		<key>Modules/QboxWebWidget.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		uDdlP8QvFgIvrCUYCSPKmNdrE7Q=
+		Vwksvn8K9TJ9AxGXFICRIHNV+kk=
 		</data>
 		<key>Modules/QboxWebWidget.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/QboxWebWidget.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		uDdlP8QvFgIvrCUYCSPKmNdrE7Q=
+		Vwksvn8K9TJ9AxGXFICRIHNV+kk=
 		</data>
 		<key>Modules/QboxWebWidget.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bYBwsXb5flqgzIFBT8zcJ/PbyXQ=
+		9F9Ysgu21GHmXcg9TFPVMlrRUrQ=
 		</data>
 		<key>Modules/QboxWebWidget.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		SxqwKVz8a0AL/B7zzOJ98N9kJJM=
+		8eV5aG//72sdfVyIGSqYFZXBcnI=
 		</data>
 		<key>Modules/QboxWebWidget.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		RmwZPxTGeu1dKvbPyqlf01xuRcM=
+		gSWw1+b5YnH9bWsWs771uha10Ww=
 		</data>
 		<key>Modules/QboxWebWidget.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/QboxWebWidget.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		RmwZPxTGeu1dKvbPyqlf01xuRcM=
+		gSWw1+b5YnH9bWsWs771uha10Ww=
 		</data>
 		<key>Modules/QboxWebWidget.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zyceCUJ+XEiFWXhikwuFpLHlqcM=
+		W7gohxsNVvSn64hTbwyMtA3Rics=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			m8ECvkYar35uhgLhHr5vUj5klcVHDctIvPh4LJEOgi0=
+			0KfUo1oHCUBabnHK+Ymt8kK3wWvADsdk8zcgcQjF1g4=
 			</data>
 		</dict>
 		<key>Headers/QboxWebWidget.h</key>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hcxIyIzDlUoKmT38Ez5xZYwexk/P9kurv6brCNAKJ88=
+			CrQs+8mFS9X44ZvuDN+5BaPjrTOo3OjqLflyk7jCnXA=
 			</data>
 		</dict>
 		<key>Modules/QboxWebWidget.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZvzZxW0XOU1M5b9bbFllsuR+lOFlNAINUv+ssfMJ9Gc=
+			2HKDo8F5H9ZLzG3Pu7eXmeAGbCkCjQaFDcrkYCPEvXI=
 			</data>
 		</dict>
 		<key>Modules/QboxWebWidget.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZvzZxW0XOU1M5b9bbFllsuR+lOFlNAINUv+ssfMJ9Gc=
+			2HKDo8F5H9ZLzG3Pu7eXmeAGbCkCjQaFDcrkYCPEvXI=
 			</data>
 		</dict>
 		<key>Modules/QboxWebWidget.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bl7XMiCv629hSsasbGHbsndAEOUM6RiXgmp0XHgwYq4=
+			vuybUVBDIZ62r1cAi1FY7K+QI1rmZFRf6HgmAdWA6Jc=
 			</data>
 		</dict>
 		<key>Modules/QboxWebWidget.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hcxIyIzDlUoKmT38Ez5xZYwexk/P9kurv6brCNAKJ88=
+			CrQs+8mFS9X44ZvuDN+5BaPjrTOo3OjqLflyk7jCnXA=
 			</data>
 		</dict>
 		<key>Modules/QboxWebWidget.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JBzFLN8jTuMo02oshC3tJwzxTgTZq7Oicg3au02plts=
+			4+WnP3YslmMlTeDklG7EBIH6bPgUYoLZZc/YreS53IA=
 			</data>
 		</dict>
 		<key>Modules/QboxWebWidget.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JBzFLN8jTuMo02oshC3tJwzxTgTZq7Oicg3au02plts=
+			4+WnP3YslmMlTeDklG7EBIH6bPgUYoLZZc/YreS53IA=
 			</data>
 		</dict>
 		<key>Modules/QboxWebWidget.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1WddmWI8DN4YXhvIZtxy+zVV9xQ40GR/VAr/PUU9YVI=
+			KKvW0dnRW39Blf5gtUdQxXFdFJZJIiApIqY/XxgenmE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

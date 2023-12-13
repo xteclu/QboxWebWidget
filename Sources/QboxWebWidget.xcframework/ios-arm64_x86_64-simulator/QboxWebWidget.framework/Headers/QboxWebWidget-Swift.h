@@ -261,10 +261,12 @@ using UInt = size_t;
 @class NSString;
 @class WKNavigation;
 @class WKNavigationAction;
+@class WKUserContentController;
+@class WKScriptMessage;
 @class NSBundle;
 
 SWIFT_CLASS("_TtC13QboxWebWidget17WebViewController")
-@interface WebViewController : UIViewController <SFSafariViewControllerDelegate, WKNavigationDelegate, WKUIDelegate>
+@interface WebViewController : UIViewController <SFSafariViewControllerDelegate, WKNavigationDelegate, WKScriptMessageHandler, WKUIDelegate>
 - (void)webView:(WKWebView * _Nonnull)webView requestMediaCapturePermissionForOrigin:(WKSecurityOrigin * _Nonnull)origin initiatedByFrame:(WKFrameInfo * _Nonnull)frame type:(WKMediaCaptureType)type decisionHandler:(void (^ _Nonnull)(WKPermissionDecision))decisionHandler SWIFT_AVAILABILITY(ios,introduced=15.0);
 - (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 - (void)webView:(WKWebView * _Nonnull)webView runJavaScriptAlertPanelWithMessage:(NSString * _Nonnull)message initiatedByFrame:(WKFrameInfo * _Nonnull)frame completionHandler:(void (^ _Nonnull)(void))completionHandler;
@@ -273,6 +275,7 @@ SWIFT_CLASS("_TtC13QboxWebWidget17WebViewController")
 - (void)viewDidLoad;
 - (void)webView:(WKWebView * _Nonnull)webView didCommitNavigation:(WKNavigation * _Null_unspecified)navigation;
 - (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
+- (void)userContentController:(WKUserContentController * _Nonnull)userContentController didReceiveScriptMessage:(WKScriptMessage * _Nonnull)message;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
@@ -547,10 +550,12 @@ using UInt = size_t;
 @class NSString;
 @class WKNavigation;
 @class WKNavigationAction;
+@class WKUserContentController;
+@class WKScriptMessage;
 @class NSBundle;
 
 SWIFT_CLASS("_TtC13QboxWebWidget17WebViewController")
-@interface WebViewController : UIViewController <SFSafariViewControllerDelegate, WKNavigationDelegate, WKUIDelegate>
+@interface WebViewController : UIViewController <SFSafariViewControllerDelegate, WKNavigationDelegate, WKScriptMessageHandler, WKUIDelegate>
 - (void)webView:(WKWebView * _Nonnull)webView requestMediaCapturePermissionForOrigin:(WKSecurityOrigin * _Nonnull)origin initiatedByFrame:(WKFrameInfo * _Nonnull)frame type:(WKMediaCaptureType)type decisionHandler:(void (^ _Nonnull)(WKPermissionDecision))decisionHandler SWIFT_AVAILABILITY(ios,introduced=15.0);
 - (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 - (void)webView:(WKWebView * _Nonnull)webView runJavaScriptAlertPanelWithMessage:(NSString * _Nonnull)message initiatedByFrame:(WKFrameInfo * _Nonnull)frame completionHandler:(void (^ _Nonnull)(void))completionHandler;
@@ -559,6 +564,7 @@ SWIFT_CLASS("_TtC13QboxWebWidget17WebViewController")
 - (void)viewDidLoad;
 - (void)webView:(WKWebView * _Nonnull)webView didCommitNavigation:(WKNavigation * _Null_unspecified)navigation;
 - (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
+- (void)userContentController:(WKUserContentController * _Nonnull)userContentController didReceiveScriptMessage:(WKScriptMessage * _Nonnull)message;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
