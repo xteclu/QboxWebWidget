@@ -273,7 +273,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(url:language:call:user:device:loggingEnabled:)",
+            "printedName": "init(url:language:call:user:device:loggingEnabled:caller:destination:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -352,11 +352,41 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13QboxWebWidget8SettingsC3url8language4call4user6device14loggingEnabledACSS_AA8LanguageOAA4CallVSgAA4UserVSgAA6DeviceVSgSbSgtcfc",
-            "mangledName": "$s13QboxWebWidget8SettingsC3url8language4call4user6device14loggingEnabledACSS_AA8LanguageOAA4CallVSgAA4UserVSgAA6DeviceVSgSbSgtcfc",
+            "usr": "s:13QboxWebWidget8SettingsC3url8language4call4user6device14loggingEnabled6caller11destinationACSS_AA8LanguageOAA4CallVSgAA4UserVSgAA6DeviceVSgSbSgSSSgAXtcfc",
+            "mangledName": "$s13QboxWebWidget8SettingsC3url8language4call4user6device14loggingEnabled6caller11destinationACSS_AA8LanguageOAA4CallVSgAA4UserVSgAA6DeviceVSgSbSgSSSgAXtcfc",
             "moduleName": "QboxWebWidget",
             "declAttributes": [
               "AccessControl"
@@ -3569,21 +3599,21 @@
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2040,
+      "offset": 2221,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2066,
+      "offset": 2247,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2266,
+      "offset": 2447,
       "length": 5,
       "value": "false"
     },

@@ -20,7 +20,7 @@ public enum Language : Swift.String {
   }
 }
 public class Settings {
-  public init(url: Swift.String, language: QboxWebWidget.Language, call: QboxWebWidget.Call? = nil, user: QboxWebWidget.User? = nil, device: QboxWebWidget.Device? = nil, loggingEnabled: Swift.Bool? = nil)
+  public init(url: Swift.String, language: QboxWebWidget.Language, call: QboxWebWidget.Call? = nil, user: QboxWebWidget.User? = nil, device: QboxWebWidget.Device? = nil, loggingEnabled: Swift.Bool? = nil, caller: Swift.String? = nil, destination: Swift.String? = nil)
   @objc deinit
 }
 extension UIKit.UIDevice {
