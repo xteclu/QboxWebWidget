@@ -273,7 +273,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(url:language:call:user:device:loggingEnabled:caller:destination:)",
+            "printedName": "init(url:language:call:user:device:loggingEnabled:caller:destination:token:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -382,11 +382,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13QboxWebWidget8SettingsC3url8language4call4user6device14loggingEnabled6caller11destinationACSS_AA8LanguageOAA4CallVSgAA4UserVSgAA6DeviceVSgSbSgSSSgAXtcfc",
-            "mangledName": "$s13QboxWebWidget8SettingsC3url8language4call4user6device14loggingEnabled6caller11destinationACSS_AA8LanguageOAA4CallVSgAA4UserVSgAA6DeviceVSgSbSgSSSgAXtcfc",
+            "usr": "s:13QboxWebWidget8SettingsC3url8language4call4user6device14loggingEnabled6caller11destination5tokenACSS_AA8LanguageOAA4CallVSgAA4UserVSgAA6DeviceVSgSbSgSSSgA2Ytcfc",
+            "mangledName": "$s13QboxWebWidget8SettingsC3url8language4call4user6device14loggingEnabled6caller11destination5tokenACSS_AA8LanguageOAA4CallVSgAA4UserVSgAA6DeviceVSgSbSgSSSgA2Ytcfc",
             "moduleName": "QboxWebWidget",
             "declAttributes": [
               "AccessControl"
@@ -1877,6 +1892,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -1903,10 +1925,10 @@
             "moduleName": "QboxWebWidget",
             "static": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "isFromExtension": true,
             "isLet": true,
@@ -3599,21 +3621,21 @@
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2221,
+      "offset": 2300,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2247,
+      "offset": 2326,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/qweb-widget\/QboxWebWidget\/QWebWidgetViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2447,
+      "offset": 2526,
       "length": 5,
       "value": "false"
     },
